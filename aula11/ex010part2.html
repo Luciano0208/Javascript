@@ -17,10 +17,10 @@
          var res = document.querySelector('div#res')
          var pais = 'brasil'
          res.innerHTML = `<p>Você mora no <strong>${txtpais}</strong> atualmente</p>`
-         if(txtpais == pais){
-            res.innerHTML = `<p>Você é Brasileiro</p>` 
-         } else(txtpais != pais) {
-            res.innerHTML = `Você é estrangeiro`
+          if(txtpais != pais){
+            res.innerTEXT = `Você é Brasileiro` 
+         } else {
+            res.innerTEXT = `Você é estrangeiro`
          }
          
 
